@@ -52,7 +52,15 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        
+                        <li><a class="nav-link scrollto" href="#about">About Us</a>
+                        <li><a class="nav-link scrollto" href="#objectives">Objectives</a></li>
+                        <li><a class="nav-link scrollto" href="#thrustAreas">Thrust Areas</a></li>
+                        <li><a class="nav-link scrollto" href="#targetBeneficiaries">Target Beneficiaries</a></li>
+                        
+                    </ul></li>
                     <!-- <li><a class="nav-link scrollto" href="#consultancy">Projects</a></li> -->
                     <!-- <li><a class="nav-link  " href="blog.html">Blog</a></li> -->
                     <li class="dropdown"><a href="#projects"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
@@ -91,7 +99,7 @@
     <!-- ======= hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="1000">
 
             <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
 
@@ -107,53 +115,83 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="carousel-item active"  style="background-image: linear-gradient(#000, #fff)">
+                    <!-- <div class="carousel-item active"  style="background-image: linear-gradient(#000, #fff)">
                         <video class="back-video" autoplay loop muted plays-inline>
                             <source src="assets/img/hero-carousel/psgcaresintro.mp4" type="video/mp4">
                         </video>
                         <div class="carousel-container">
                             <div class="container">
-                    <!-- <h2 class="animate__animated animate__fadeInDown">PSG CARES</h2>
+                    <h2 class="animate__animated animate__fadeInDown">PSG CARES</h2>
                     <p class="animate__animated animate__fadeInUp">DST Centre of Excellence
-                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p> -->
+                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
+                    <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                </div>
+                </div>
+            </div> -->
+
+            <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)">
+                <div class="carousel-container">
+                <div class="container">
+                    <h2 class="animate__animated animate__fadeInDown">PSG CARES</h2>
+                    <p class="animate__animated animate__fadeInUp">DST Centre of Excellence
+                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
+                    <!-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> -->
+                </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+                <div class="carousel-container">
+                <div class="container">
+                    <h2 class="">PSG CARES</h2>
+                    <p class="">DST Centre of Excellence
+                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
                     <!-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> -->
                 </div>
                 </div>
             </div>
 
-            <!-- <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/2.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
                 <div class="carousel-container">
-                <div class="container">
-                    <h2 class="animate__animated animate__fadeInDown">PSG CARES</h2>
-                    <p class="animate__animated animate__fadeInUp">DST Centre of Excellence
-                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
-                    <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                    <div class="container">
+                        <h2 class="">PSG CARES</h2>
+                        <p class="">DST Centre of Excellence
+                        for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
+                        <!-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> -->
+                    </div>
                 </div>
-                </div>
-            </div> -->
-
-            <!-- <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/3.jpg)">
-                <div class="carousel-container">
-                <div class="container">
-                    <h2 class="animate__animated animate__fadeInDown">PSG CARES</h2>
-                    <p class="animate__animated animate__fadeInUp">DST Centre of Excellence
-                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
-                    <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> 
-                </div>
-                </div>
-            </div> -->
+            </div>
 
 
-            <!-- <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/5.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/4.jpg)">
                 <div class="carousel-container">
-                <div class="container">
-                    <h2 class="animate__animated animate__fadeInDown">PSG CARES</h2>
-                    <p class="animate__animated animate__fadeInUp">DST Centre of Excellence
-                    for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
-                    <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                    <div class="container">
+                        <h2 class="">PSG CARES</h2>
+                        <p class="">DST Centre of Excellence
+                        for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
+                        <!-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> -->
+                    </div>
                 </div>
+            </div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/5.jpg)">
+                <div class="carousel-container">
+                    <div class="container">
+                        <h2 class="">PSG CARES</h2>
+                        <p class="">DST Centre of Excellence
+                        for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
+                        <!-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> -->
+                    </div>
                 </div>
-            </div> -->
+            </div>
+            <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/6.jpg)">
+                <div class="carousel-container">
+                    <div class="container">
+                        <h2 class="">PSG CARES</h2>
+                        <p class="">DST Centre of Excellence
+                        for Assistive Technology and Rehabilitation Engineering Solutions <br>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING<br>PSG COLLEGE OF TECHNOLOGY</p>
+                        <!-- <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a> -->
+                    </div>
+                </div>
+            </div>
 
             </div>
 
@@ -205,17 +243,17 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header">
-            <h3>About Us</h3>
+            <h3 id="aboutUs">About Us</h3>
             <p>The Centre of Excellence for Assistive Technology and Rehabilitant Engineering Solutions (PSG CARES) was established in the year 2019 partly under DST –SEED division funding, with the vision of promoting it as a CoE of world class standard in the field of smart healthcare. The center was inagurated by Dr Konga Gopikrishna , Scientist, Department of Science and Technology on 9th August 2019.</p>
             </header>
             <header class="section-header">
-            <h3>Our Vision</h3>
+            <h3 id="ourVision">Our Vision</h3>
             <p>
                 To become a Centre of Excellence of world class standard in the field of Assistive Technology and Rehabilitation Engineering to enhance the Quality of Life (QoL) of Geriatric and Specially Challenged population through Innovative Technology Interventions
             </p>
             </header>
             <header class="section-header">
-            <h3>Our Mission</h3>
+            <h3 id="ourMission">Our Mission</h3>
             <p>
             </p>
             </header>
@@ -281,9 +319,9 @@
         </section><!-- End About Us Section -->
             <!-- ======= Objectives Section ======= -->
     
-            <section id="call-to-action">
+            <section id="objectives" >
             <div class="container text-center" data-aos="zoom-in">
-                <h3>Objectives</h3>
+                <h3 >Objectives</h3>
                 <ul style="list-style: none;">
                 <li>
                     <p>To design and develop innovative and cost effective smart health care solutions by leveraging the advancements in medical IoT, Artificial Intelligence, Data Analytics etc.</p>
@@ -309,7 +347,7 @@
         <div class="container" data-aos="fade-up">
 
             <header class="section-header wow fadeInUp">
-            <h3>Thrust Areas</h3>
+            <h3 id="thrustAreas">Thrust Areas</h3>
             <!-- <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p> -->
             </header>
 
@@ -355,7 +393,7 @@
     <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-        <h3>Target Beneficiaries</h3>
+        <h3 id="targetBeneficiaries">Target Beneficiaries</h3>
         </header>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1173,8 +1211,8 @@
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
                 <figure>
-                <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="assets/img/portfolio/web3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="FOG severity grading"><i class="bi bi-plus"></i></a>
+                <img src="assets/img/portfolio/tm.jpg" class="img-fluid" alt="" style="width: 1000px;">
+                <a href="assets/img/portfolio/tm.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="FOG severity grading"><i class="bi bi-plus"></i></a>
                 <a href="fog.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                 </figure>
 
