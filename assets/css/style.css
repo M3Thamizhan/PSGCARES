@@ -931,32 +931,32 @@ section {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action {
+#objectives {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
-#call-to-action h3 {
+#objectives h3 {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action p {
+#objectives p {
   color: #fff;
 }
 
-#call-to-action ul{
+#objectives ul{
   color: #fff;
   text-align: center;
 }
-#call-to-action li{
+#objectives li{
   color: #fff;
   text-align: center;
 }
 
-#call-to-action .cta-btn {
+#objectives .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -971,7 +971,7 @@ section {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#objectives .cta-btn:hover {
   background: #18d26e;
   border: 2px solid #18d26e;
 }
@@ -1214,6 +1214,175 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+
+
+#technology {
+  padding: 60px 0;
+}
+
+#technology #portfolio-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+
+#technology #portfolio-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+#technology #portfolio-flters li:hover,
+#technology #portfolio-flters li.filter-active {
+  background: #18d26e;
+  color: #fff;
+}
+
+#technology #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+#technology .portfolio-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+#technology .portfolio-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+#technology .portfolio-item {
+  position: relative;
+  height: relative;
+  overflow: hidden;
+}
+
+#technology .portfolio-item figure {
+  background: #000;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+#technology .portfolio-item img {
+ 
+  height: 240px;
+
+}
+
+#technology .portfolio-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+#technology .portfolio-item figure .link-preview,
+#technology .portfolio-item figure .link-details {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+
+#technology .portfolio-item figure .link-preview i,
+#technology .portfolio-item figure .link-details i {
+  font-size: 22px;
+  color: #333;
+  line-height: 0;
+}
+
+#technology .portfolio-item figure .link-preview:hover,
+#technology .portfolio-item figure .link-details:hover {
+  background: #18d26e;
+}
+
+#technology .portfolio-item figure .link-preview:hover i,
+#technology .portfolio-item figure .link-details:hover i {
+  color: #fff;
+}
+
+#technology .portfolio-item figure .link-preview {
+  left: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#technology .portfolio-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+
+#technology .portfolio-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(50% - 44px);
+}
+
+#technology .portfolio-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
+
+#technology .portfolio-item .portfolio-info {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  height: auto;
+  width: 100%;
+  /* border-radius: 0 0 3px 3px; */
+  
+ 
+}
+
+#technology .portfolio-item .portfolio-info h4 {
+  
+  font-size: 18px;
+  line-height: relative;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+  white-space: normal;
+  /* word-wrap: break-word; */
+  overflow: hidden;
+  text-overflow: clip;
+  position: relative;
+}
+
+#technology .portfolio-item .portfolio-info h4 a {
+  color: #333;
+}
+
+#technology .portfolio-item .portfolio-info h4 a:hover {
+  color: #18d26e;
+}
+
+#technology .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
